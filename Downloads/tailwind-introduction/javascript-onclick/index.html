@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript-Onclick</title>
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <script>
+        function myVirus() {
+             alert('Virus Uploading Now!!!!');
+        
+        }
+        function changeContent() {
+        const content = document.getElementById('myContent')
+        content.innerHTML = 'test'
+    }
+    </script>
+
+ 
+
+</head>
+<body class=" flex flex-col gap-y-12 p-24">
+
+    
+    <div class="flex flex-row gap-x-5">
+        <button 
+            onclick="myVirus()"
+            class="h-1/2  shadow-md shadow-green-200 font-bold text-sm p-1 bg-green-300 rounded-xl hover:bg-red-200 hover:shadow-red-400">Button 1
+        </button>
+        <button 
+            onclick="changeContent()"
+            class="h-1/2  shadow-md shadow-green-200 font-bold text-sm p-1 bg-green-300 rounded-xl hover:bg-red-200 hover:shadow-red-400">Button 2
+        </button>
+    </div>
+        <p id="myContent" class="p-12 bg-gray-300">Embark on a journey to some of the most breathtaking locations around the globe. From serene beaches to snow-capped mountains, the world is full of wonders waiting to be explored. Each destination offers unique experiences, rich cultures, and unforgettable memories.</p>
+</body>
+</html>
