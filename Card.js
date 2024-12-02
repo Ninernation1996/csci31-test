@@ -1,7 +1,7 @@
 
 
 function Card({ title, image, paragraph, tags }) {
-  const para = Content(paragraph); // Simulating Content function
+  const para = Content(paragraph); 
   const tag = Tags(tags);
   return (
     <div className="flex-grow w-96 bg-stone-50 flex flex-col rounded-lg hover:scale-105 transition-all shadow-lg">

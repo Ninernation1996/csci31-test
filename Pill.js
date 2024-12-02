@@ -2,8 +2,7 @@
 
  
 
-// Pill.js
-// Pill.js
+
 const alltags = ['#Roadster', '#EVCar', '#SportsCar', '#ModelS', '#SelfDriving', '#Sedan', '#Optimus', '#Robot', '#A.I.Robot'];
 
 function Tags(idx) {
