@@ -9,4 +9,4 @@ function Navbar() {
     </nav>
   );
 }
-  
+window.Navbar = Navbar;

@@ -39,6 +39,21 @@ function Main() {
           />
         ))}
       </div>
+      <MainFlex> 
+         <FlexOne>
+          <span>#Elon-Musk</span>
+        </FlexOne>
+        <FlexTwo>
+          <span>#Future</span>
+        </FlexTwo>
+        <FlexThree>
+          <span>#Self-Driving</span>
+        </FlexThree>
+
+      </MainFlex>
+      
+      
+      
     </main>
   );
 }
